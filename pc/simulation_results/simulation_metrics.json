@@ -1,0 +1,19 @@
+{
+  "seed": 42,
+  "calibration": {
+    "bmi_bias_error_g": 8.168538411455414e-05,
+    "adxl_bias_error_g": 0.000159999999998911,
+    "bmi_validation_norm_g": 1.0000734112463472,
+    "adxl_validation_norm_g": 1.0004426825304786,
+    "gyro_validation_max_mean_dps": 0.0023628048780486603
+  },
+  "variance": {
+    "tau_first_s": 0.1,
+    "allan_first_dps2": 0.040489587179306556,
+    "hadamard_first_dps2": 0.04048151040233162,
+    "tau_comparison_s": 9.1,
+    "allan_comparison_dps2": 0.00043219985809116933
+  },
+  "ekf_roll_rmse_deg": 0.20753606455042117,
+  "ekf_pitch_rmse_deg": 0.1684277798623914
+}
